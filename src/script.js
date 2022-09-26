@@ -69,3 +69,26 @@ document.getElementById("demo").innerHTML = myFunction();
 function myFunction() {
     document.getElementById("demo").innerHTML = "Hello";
 }
+
+// defining objects and calling using alert
+const person = {
+    firstName: "John",
+    lastName: "Doe"
+};
+
+alert(person.firstName);
+
+//adding new value to person1 object country = norway 
+const person1 = {
+    firstName: "John",
+    lastName: "Doe",
+    country:"Norway"
+};
+
+// Create an object called person with name = John, age = 50.
+// Then, access the object to alert("John is 50").
+const person2=
+ {
+  name:"John", age:50
+};
+alert(person.name + "is" + person.age);
