@@ -34,3 +34,12 @@ x+=y;
 x=10;
 y=5;
 x*=y;
+// defining datatype in comments
+let length = 16;          //Number
+
+let lastName = "Johnson"; //String 
+
+const x = {
+  firstName: "John",
+  lastName: "Doe"
+};                        //Object
