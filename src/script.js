@@ -85,10 +85,15 @@ const person1 = {
     country:"Norway"
 };
 
-// Create an object called person with name = John, age = 50.
+// Created an object called person with name = John, age = 50.
 // Then, access the object to alert("John is 50").
 const person2=
  {
   name:"John", age:50
 };
 alert(person.name + "is" + person.age);
+
+
+
+// The <div> element should turn red when someone moves the mouse over it.
+
