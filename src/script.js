@@ -82,14 +82,14 @@ alert(person.firstName);
 const person1 = {
     firstName: "John",
     lastName: "Doe",
-    country:"Norway"
+    country: "Norway"
 };
 
 // Created an object called person with name = John, age = 50.
 // Then, access the object to alert("John is 50").
-const person2=
- {
-  name:"John", age:50
+const person2 =
+{
+    name: "John", age: 50
 };
 alert(person.name + "is" + person.age);
 
@@ -101,11 +101,37 @@ alert(x);
 
 // using escape sequence inorder to defining string using let
 {
-let txt = "We are \"Vikings\"";
-alert(txt);
+    let txt = "We are \"Vikings\"";
+    alert(txt);
 }
 
 // using concatenation operator to add string str1 and str2
 let str1 = "Hello ";
 let str2 = "World!";
-alert(str1 + str2); 
+alert(str1 + str2);
+
+// using touppercase method to show text in uppercase
+{
+    let txt = "Hello World!";
+    txt = txt.toUpperCase();
+}
+// using slice method to slice the string bananas
+{
+    let txt = "I can eat bananas all day";
+    let x = txt.slice(10, 17);
+}
+// using the replace method to replace the string
+{
+    let txt = "Hello World";
+    txt = txt.replace("Hello", "Welcome");
+}
+// using the touppercase method to show string in uppercase
+{
+let txt = "Hello World";
+txt = txt.toUpperCase();
+}
+
+{
+let txt = "Hello World";
+txt = txt.toLowerCase();
+}
