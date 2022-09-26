@@ -94,6 +94,18 @@ const person2=
 alert(person.name + "is" + person.age);
 
 
+// using length function and to find length of string 
+let txt = "Hello World!";
+let x = txt.lenth;
+alert(x);
 
-// The <div> element should turn red when someone moves the mouse over it.
+// using escape sequence inorder to defining string using let
+{
+let txt = "We are \"Vikings\"";
+alert(txt);
+}
 
+// using concatenation operator to add string str1 and str2
+let str1 = "Hello ";
+let str2 = "World!";
+alert(str1 + str2); 
