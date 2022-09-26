@@ -18,3 +18,19 @@ alert(z);
 
 // declaring three variables on one line
 var firstName ="john",lastName="Doe",age=35;
+
+// multiplying two numbers with and then using alert to give message
+alert(10 * 5);
+
+//  diving two numbers and then using alert to give alert
+alert(10/5);
+// alert the remainder
+alert(10%5);
+// using the assignment operator += to add number
+x=10;
+y=5;
+x+=y;
+// using the assignment operator *= to multiply number
+x=10;
+y=5;
+x*=y;
