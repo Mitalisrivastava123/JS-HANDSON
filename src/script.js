@@ -306,3 +306,42 @@ for (i = 0; i < 10; i++) {
     }
     console.log(i);
   }
+
+//   Use the getElementById method to find the <p> element, and change its text to "Hello".
+  <p id="demo"></p>
+  document.getElementById("demo").innerHTML = "Hello";
+
+// Used the getElementsByTagName method to find the first <p> element, and change its text to "Hello".
+  <p id="demo"></p>
+document.getElementsByTagName("p")[0].innerHTML= "Hello";
+
+// Change the text of the first element that has the class name "test".
+{
+<p class="test"></p>
+document.getElementsByClassName("test")[0].innerHTML= "Hello";
+}
+
+// Used HTML DOM to change the value of the image's src attribute.
+<img id="image" src="smiley.gif"/>
+document.getElementById("image").src= "pic_mountain.jpg";
+
+// Used HTML DOM to change the value of the input field.
+<input type="text" id="myText" value="Hello"/>
+document.getElementById("myText").value = "Have a nice day!";
+
+// Changed the text color of the <p> element to "red".
+<p id="demo"></p>
+document.getElementById("demo").style.color= "red";
+
+// Changed the font size of the p element to 40 pixels.
+<p id="demo"></p>
+document.getElementById("demo").style.fontSize= "40px";
+
+// Used the CSS display property to hide the p element.
+<p id="demo"></p>
+document.getElementById("demo").style.display= "none";
+
+
+// Use the eventListener to assign an onclick event to the <button> element.
+<button id="demo">Click me1</button>
+document.getElementById("demo").addEventListener("click", myFunction);
