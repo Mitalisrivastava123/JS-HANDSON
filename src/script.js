@@ -127,33 +127,33 @@ alert(str1 + str2);
 }
 // using the touppercase method to show string in uppercase
 {
-let txt = "Hello World";
-txt = txt.toUpperCase();
+    let txt = "Hello World";
+    txt = txt.toUpperCase();
 }
 
 {
-let txt = "Hello World";
-txt = txt.toLowerCase();
+    let txt = "Hello World";
+    txt = txt.toLowerCase();
 }
 // fetching the index 1 of an array
-const cars=["Saab","Volvo","BMW"];
-let x=cars[1];
+const cars = ["Saab", "Volvo", "BMW"];
+let x = cars[1];
 
 // replacing the first element with ford
 {
-const cars=["Saab","Volvo","BMW"];
-cars[0]="Ford";
+    const cars = ["Saab", "Volvo", "BMW"];
+    cars[0] = "Ford";
 }
 
 // alert the array elements
 {
-const cars=["Saab","Volvo","BMW"];
-alert(cars.length);
+    const cars = ["Saab", "Volvo", "BMW"];
+    alert(cars.length);
 }
 // remove last element from an array
 {
-const fruits = ["Banana", "Orange", "Apple"];
-fruits.pop();
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits.pop();
 }
 
 // pushed an element into an array
@@ -162,11 +162,35 @@ fruits.push("Kiwi");
 
 // used splice method to remove element from an array
 {
-const fruits = ["Banana", "Orange", "Apple"];
-fruits.splice(1,2);
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits.splice(1, 2);
 }
 // used the sort method to sort an element of an array
 {
-const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
-fruits.sort();
+    const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+    fruits.sort();
+}
+// created a date object
+const d = new Date();
+alert(d);
+
+// get full year
+
+{
+    const d = new Date();
+    year = d.getFullYear();
+}
+// get month
+{
+    const d = new Date();
+    d.getMonth();
+}
+// set full year 
+{
+    const d = new Date();
+    d.setFullYear(2020);
+}
+{
+    const d = new Date();
+    d.setFullYear(2020);
 }
