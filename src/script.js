@@ -165,3 +165,8 @@ fruits.push("Kiwi");
 const fruits = ["Banana", "Orange", "Apple"];
 fruits.splice(1,2);
 }
+// used the sort method to sort an element of an array
+{
+const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.sort();
+}
