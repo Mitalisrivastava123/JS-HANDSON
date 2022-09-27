@@ -194,3 +194,13 @@ alert(d);
     const d = new Date();
     d.setFullYear(2020);
 }
+// create random number using math function
+let r = Math.random();
+
+// used max function to find maximum number
+let x = Math.max(10,20);
+
+// used round method to find nearest integer
+let x = Math.round(5.3);
+// used sqrt method to find square root
+let x = Math.sqrt(9);
