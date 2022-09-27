@@ -138,3 +138,20 @@ txt = txt.toLowerCase();
 // fetching the index 1 of an array
 const cars=["Saab","Volvo","BMW"];
 let x=cars[1];
+
+// replacing the first element with ford
+{
+const cars=["Saab","Volvo","BMW"];
+cars[0]="Ford";
+}
+
+// alert the array elements
+{
+const cars=["Saab","Volvo","BMW"];
+alert(cars.length);
+}
+// remove last element from an array
+{
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+}
