@@ -204,3 +204,20 @@ let x = Math.max(10,20);
 let x = Math.round(5.3);
 // used sqrt method to find square root
 let x = Math.sqrt(9);
+
+// find greatest element using >sign
+x=10;
+y=5;
+alert(x>y);
+// used == to math both the values of x and y
+x=10;
+y=10;
+alert(x==y);
+// used != to check x is not equal to y
+x=10;
+y=5;
+alert(x!=y);
+// used the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough"
+var age = n;
+var voteable = (age < 18) ? "Too young" : "Old enough";
+alert(voteable);
