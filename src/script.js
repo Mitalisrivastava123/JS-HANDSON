@@ -198,7 +198,7 @@ alert(d);
 let r = Math.random();
 
 // used max function to find maximum number
-let x = Math.max(10,20);
+let x = Math.max(10, 20);
 
 // used round method to find nearest integer
 let x = Math.round(5.3);
@@ -206,33 +206,60 @@ let x = Math.round(5.3);
 let x = Math.sqrt(9);
 
 // find greatest element using >sign
-x=10;
-y=5;
-alert(x>y);
+x = 10;
+y = 5;
+alert(x > y);
 // used == to math both the values of x and y
-x=10;
-y=10;
-alert(x==y);
+x = 10;
+y = 10;
+alert(x == y);
 // used != to check x is not equal to y
-x=10;
-y=5;
-alert(x!=y);
+x = 10;
+y = 5;
+alert(x != y);
 // used the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough"
 var age = n;
 var voteable = (age < 18) ? "Too young" : "Old enough";
 alert(voteable);
 
 // used the if statement to alert "Hello World" if x is greater than y.
-if(x>y)
-{
+if (x > y) {
     alert("hello world");
 }
 // used the if statement to alert "Hello World" if x is greater than y, otherwise alert "Goodbye".
-if(x>y)
-{
+if (x > y) {
     alert("hello world");
 }
-else
-{
+else {
     alert("good bye");
 }
+// used switch statement that will alert "Hello" if fruits is "banana", and "Welcome" if fruits is "apple"
+switch
+(fruits) {
+
+    case
+        "Banana":
+        alert("Hello")
+        break;
+
+    case
+        "Apple":
+        alert("Welcome")
+        break;
+}
+
+        // used default section in switch statement
+      
+       switch(fruits) {
+        case "Banana":
+          alert("Hello")
+          break;
+        case "Apple":
+          alert("Welcome")
+          break;
+        
+      default:
+      
+          alert("Neither");
+      }
+        
