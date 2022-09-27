@@ -135,3 +135,6 @@ txt = txt.toUpperCase();
 let txt = "Hello World";
 txt = txt.toLowerCase();
 }
+// fetching the index 1 of an array
+const cars=["Saab","Volvo","BMW"];
+let x=cars[1];
