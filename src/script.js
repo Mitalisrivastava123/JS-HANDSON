@@ -221,3 +221,18 @@ alert(x!=y);
 var age = n;
 var voteable = (age < 18) ? "Too young" : "Old enough";
 alert(voteable);
+
+// used the if statement to alert "Hello World" if x is greater than y.
+if(x>y)
+{
+    alert("hello world");
+}
+// used the if statement to alert "Hello World" if x is greater than y, otherwise alert "Goodbye".
+if(x>y)
+{
+    alert("hello world");
+}
+else
+{
+    alert("good bye");
+}
