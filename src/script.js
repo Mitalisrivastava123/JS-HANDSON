@@ -267,11 +267,27 @@ let i;
 for (i = 0; i < 9; i++) {
     console.log(i);
 }
-
+// used for in loop
 {
     const fruits = ["Apple", "Banana", "Orange"];
     for (x in fruits) {
         console.log(x);
     }
 }
-
+// used while loop
+{
+let i = 0;
+while(i <10) {
+  console.log(i);
+  i++
+}
+}
+// used a loop that runs as long as i is less than 10, but increase i with 2 each time.
+{
+let i=0;
+while(i<10)
+{
+    console.log(i);
+    i=i+2;
+}
+}
