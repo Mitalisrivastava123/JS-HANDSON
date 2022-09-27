@@ -248,18 +248,30 @@ switch
         break;
 }
 
-        // used default section in switch statement
-      
-       switch(fruits) {
-        case "Banana":
-          alert("Hello")
-          break;
-        case "Apple":
-          alert("Welcome")
-          break;
-        
-      default:
-      
-          alert("Neither");
-      }
-        
+// used default section in switch statement
+
+switch (fruits) {
+    case "Banana":
+        alert("Hello")
+        break;
+    case "Apple":
+        alert("Welcome")
+        break;
+
+    default:
+
+        alert("Neither");
+}
+//  used for loop which runs from 0 to 9
+let i;
+for (i = 0; i < 9; i++) {
+    console.log(i);
+}
+
+{
+    const fruits = ["Apple", "Banana", "Orange"];
+    for (x in fruits) {
+        console.log(x);
+    }
+}
+
