@@ -344,4 +344,4 @@ document.getElementById("demo").style.display= "none";
 
 // Use the eventListener to assign an onclick event to the <button> element.
 <button id="demo">Click me1</button>
-document.getElementById("demo").addEventListener("click", myFunction);
+document.getElementById("demo").addEventListener("click",myFunction);
