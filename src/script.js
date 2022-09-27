@@ -155,3 +155,13 @@ alert(cars.length);
 const fruits = ["Banana", "Orange", "Apple"];
 fruits.pop();
 }
+
+// pushed an element into an array
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi");
+
+// used splice method to remove element from an array
+{
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.splice(1,2);
+}
